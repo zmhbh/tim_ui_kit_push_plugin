@@ -3,6 +3,7 @@ package com.tencent.flutter.tim_ui_kit_push_plugin.pushActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -14,8 +15,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
-
-import io.flutter.Log;
 
 public class VIVOMessageActivity extends Activity {
     private static final String TAG = "TUIKitPush | VIVO";
